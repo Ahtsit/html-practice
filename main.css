@@ -1,0 +1,105 @@
+/* *{
+    font-size:20 px;
+    color:blueviolet;
+} */
+
+/* div{
+    background: teal;
+    height: 100px;
+}
+p {
+    color:beige;
+}
+.lower-div{
+    background: rgb(160, 113, 160);
+    height: 100px;
+}*/
+/* .lower-p{
+    font-size:30px;
+    color:rgb(143, 143, 11);
+} */
+
+/* h1{
+    color:rgb(230, 26, 26);
+}
+#headingtwo{
+    font-size: 100px;
+    color:rgb(18, 62, 48);
+} 
+*{
+    font-size: 20px;
+    color:brown;
+}
+h1{
+    font-size: 30px;
+    color:rgb(15, 15, 23);
+    font-weight: lighter;
+}
+.headingclass{
+    font-size: 50px;
+    color:teal;
+} */
+
+/* h1{
+    font-size: 20 px;
+    color: beige;
+}
+button{
+    background: burlywood;
+    color: aquamarine;
+    padding: 5 px; */
+
+.container{
+    background-color: teal;
+    border: 5px solid blue;
+    margin: 20 px;
+    padding: 10 px;
+    
+
+
+}
+button{
+    background-color: burlywood;
+    color: aquamarine;
+    /* padding-left: 5 px;
+    padding-right: 5 px;
+    padding-top: 5 px;
+    padding-bottom: 5 px; */
+    border:0;
+    height: 50 px;
+    width: 200px;
+    font-size: 20 px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(213, 213, 11);
+    cursor: pointer;
+}
+/* .line::first-letter{
+    font-size: 40 px;
+    color:navy; */
+/* } */
+button:hover{
+    background-color: rgb(230, 138, 27);
+    cursor: pointer;
+}
+.my-flex{
+    height:100vh;
+    display: flex;
+    background: skyblue;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*
+*
+tag: 1
+class:2
+id:3
+internal:4
+inline: 5
+*/

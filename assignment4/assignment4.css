@@ -1,0 +1,172 @@
+*{
+    font-family: roboto;
+}
+.main-container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+    background-color: bisque;
+    
+}
+.content{
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    
+}
+.top-content{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 15px
+    
+}
+.arrow {
+    position: relative;
+    top: 8px;
+    left: 20px;
+}
+.favourate{
+    position: relative;
+    left: 185px;
+    top: 8px;
+}
+.dot{
+    position: relative;
+    left: 50px;
+    top: 8px; 
+}
+#dress-title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 10px;
+}
+.review{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    position: relative;
+    bottom: 20px;
+}
+.review-text{
+    font-size: 8px;
+    color: gray;
+    
+}
+.main-img {
+    height: calc(250px-20px);
+    width: 100%;
+    margin: 5px;
+    margin-top: 5px;
+    background-color: #c5c5c7;
+    object-position: relative;
+    margin-bottom: 10px;
+    left: 20px;
+    border-radius: 10px;
+}
+.main-img img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.size-part span{
+    position: relative;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    
+}
+.size-item{
+    position: relative;
+    left: 20px;
+    top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 5px;
+    padding-left: 0%;
+}
+.size{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: gray;
+}
+.color-part span{
+    position: relative;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    
+}
+.color-item{
+    position: relative;
+    left: 20px;
+    top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 5px;
+}
+.color-item div{
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+.color1{
+    
+    background-color: #a13d13;
+}
+.color2{
+    
+    background-color: #305190;
+}
+.color3{
+   
+    background-color: #9d32d3;
+}
+.color4{
+    
+    background-color: #ac4353;
+}
+.color5{
+    
+    background-color: #27859d;
+}
+.color6{
+    
+    background-color: #3cac7b;
+}
+.price{
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.price button{
+    font-size: 12px;
+    position: relative;
+    left: 85px;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
